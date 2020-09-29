@@ -1,0 +1,15 @@
+#User input for building robot's expression
+print("##########")
+print("#        #")
+print("#        #")
+print("##########")
+print("")
+expression = input("Please enter a character to create Beep's eyes?")
+print("")
+print("Beep's expression is now as follows:")
+print("")
+print("##########")
+print("#  {}" .format(expression), " {}  #" .format(expression))
+print("#  ----  #")
+print("##########")
+
