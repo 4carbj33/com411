@@ -20,5 +20,5 @@ print("Your weight is {}kg." .format(weight))
 
 #BMI calculation
 print("")
-bmi = weight/(height**2)
-print(name, "you are: {}" .format(age), " years old", "and your BMI is {}" .format(bmi))
+bmi = round(weight/(height**2), 2)
+print(name, "you are: {}" .format(age), "years old", "and your BMI is {}" .format(bmi))
