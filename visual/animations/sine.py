@@ -17,3 +17,11 @@ def run():
   some_animation = animation.FuncAnimation(fig, animate, frames = 720, interval = 100)
   plt.show()
 run()
+
+
+
+
+
+
+
+
